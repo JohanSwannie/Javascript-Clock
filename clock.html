@@ -8,14 +8,14 @@
     <style>
       body {
         background: url("https://i.pinimg.com/originals/85/6f/3a/856f3aa4dde3aca35c04aeaa38a719e3.jpg");
-        width: 1520px;
-        height: 700px;
+        overflow: hidden;
       }
 
       #canvas {
         position: absolute;
-        top: 28px;
-        left: 390px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         background: linear-gradient(
           to bottom right,
           khaki,
@@ -32,7 +32,8 @@
         );
         border: 4px solid gold;
         border-radius: 60%;
-        padding: 60px;
+        padding: 55px;
+        max-height: 100vh;
       }
     </style>
   </head>
